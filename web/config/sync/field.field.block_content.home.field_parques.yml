@@ -1,0 +1,29 @@
+uuid: 9814b894-ab15-436c-895f-0d3a33530273
+langcode: en
+status: true
+dependencies:
+  config:
+    - block_content.type.home
+    - field.storage.block_content.field_parques
+    - node.type.cachoeiras
+id: block_content.home.field_parques
+field_name: field_parques
+entity_type: block_content
+bundle: home
+label: Parques
+description: ''
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings:
+  handler: 'default:node'
+  handler_settings:
+    target_bundles:
+      cachoeiras: cachoeiras
+    sort:
+      field: status
+      direction: ASC
+    auto_create: false
+    auto_create_bundle: cachoeiras
+field_type: entity_reference

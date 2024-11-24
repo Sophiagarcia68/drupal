@@ -1,0 +1,23 @@
+uuid: d5832be0-2891-4c16-9a02-17395436065d
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.node.field_idade_recomendada
+    - node.type.parque_de_diversoes
+id: node.parque_de_diversoes.field_idade_recomendada
+field_name: field_idade_recomendada
+entity_type: node
+bundle: parque_de_diversoes
+label: 'Idade recomendada'
+description: ''
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings:
+  min: 1
+  max: 100
+  prefix: ''
+  suffix: ''
+field_type: integer

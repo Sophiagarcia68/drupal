@@ -1,0 +1,42 @@
+uuid: 0ad31810-58c0-4d49-8f9a-c69a5786ebf1
+langcode: en
+status: true
+dependencies:
+  config:
+    - core.entity_view_mode.node.teaser
+    - field.field.node.parque_de_diversoes.body
+    - field.field.node.parque_de_diversoes.field_idade_recomendada
+    - field.field.node.parque_de_diversoes.field_imagem
+    - field.field.node.parque_de_diversoes.field_local
+    - field.field.node.parque_de_diversoes.field_porte
+    - field.field.node.parque_de_diversoes.field_tipo
+    - field.field.node.parque_de_diversoes.field_videos
+    - node.type.parque_de_diversoes
+  module:
+    - text
+    - user
+id: node.parque_de_diversoes.teaser
+targetEntityType: node
+bundle: parque_de_diversoes
+mode: teaser
+content:
+  body:
+    type: text_summary_or_trimmed
+    label: hidden
+    settings:
+      trim_length: 600
+    third_party_settings: {  }
+    weight: 101
+    region: content
+  links:
+    settings: {  }
+    third_party_settings: {  }
+    weight: 100
+    region: content
+hidden:
+  field_idade_recomendada: true
+  field_imagem: true
+  field_local: true
+  field_porte: true
+  field_tipo: true
+  field_videos: true

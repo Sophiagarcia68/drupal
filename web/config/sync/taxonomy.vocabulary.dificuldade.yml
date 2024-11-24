@@ -1,0 +1,9 @@
+uuid: c96a7546-207d-43ae-9877-26a400d68ed7
+langcode: en
+status: true
+dependencies: {  }
+name: Dificuldade
+vid: dificuldade
+description: null
+weight: 0
+new_revision: false

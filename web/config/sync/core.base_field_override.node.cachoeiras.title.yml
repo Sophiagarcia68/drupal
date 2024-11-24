@@ -1,0 +1,18 @@
+uuid: c2381dac-2b3b-48ab-b9d9-b024ba9378b3
+langcode: en
+status: true
+dependencies:
+  config:
+    - node.type.cachoeiras
+id: node.cachoeiras.title
+field_name: title
+entity_type: node
+bundle: cachoeiras
+label: Titulo
+description: ''
+required: true
+translatable: true
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: string

@@ -1,0 +1,18 @@
+uuid: 82d035d9-9553-4625-9bf3-8bde7a71b574
+langcode: en
+status: true
+dependencies:
+  module:
+    - menu_ui
+third_party_settings:
+  menu_ui:
+    available_menus:
+      - main
+    parent: 'main:'
+name: 'Parque De Diversões'
+type: parque_de_diversoes
+description: null
+help: null
+new_revision: true
+preview_mode: 1
+display_submitted: true

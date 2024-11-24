@@ -1,0 +1,21 @@
+uuid: c5be6e58-e612-48e6-afdc-eeb519563703
+langcode: en
+status: true
+dependencies:
+  config:
+    - block_content.type.cachoeiras
+    - field.field.block_content.cachoeiras.field_cachoeiras
+id: block_content.cachoeiras.default
+targetEntityType: block_content
+bundle: cachoeiras
+mode: default
+content:
+  field_cachoeiras:
+    type: entity_reference_label
+    label: above
+    settings:
+      link: true
+    third_party_settings: {  }
+    weight: 1
+    region: content
+hidden: {  }

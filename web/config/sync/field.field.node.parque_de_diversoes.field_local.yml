@@ -1,0 +1,29 @@
+uuid: 86f75949-7bf5-407d-9e5e-3ec55d2a12e7
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.node.field_local
+    - node.type.parque_de_diversoes
+    - taxonomy.vocabulary.localizacao
+id: node.parque_de_diversoes.field_local
+field_name: field_local
+entity_type: node
+bundle: parque_de_diversoes
+label: Local
+description: ''
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings:
+  handler: 'default:taxonomy_term'
+  handler_settings:
+    target_bundles:
+      localizacao: localizacao
+    sort:
+      field: name
+      direction: asc
+    auto_create: false
+    auto_create_bundle: ''
+field_type: entity_reference

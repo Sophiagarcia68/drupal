@@ -1,0 +1,24 @@
+uuid: 5c073f08-fd3e-4e80-a081-355b9004285e
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.node.body
+    - node.type.cachoeiras
+  module:
+    - text
+id: node.cachoeiras.body
+field_name: body
+entity_type: node
+bundle: cachoeiras
+label: Body
+description: ''
+required: false
+translatable: true
+default_value: {  }
+default_value_callback: ''
+settings:
+  display_summary: true
+  required_summary: false
+  allowed_formats: {  }
+field_type: text_with_summary

@@ -1,0 +1,8 @@
+uuid: 37dcd4b2-27ed-4cea-818b-e1c22af24eac
+langcode: en
+status: true
+dependencies: {  }
+id: home
+label: ' Home'
+revision: false
+description: null

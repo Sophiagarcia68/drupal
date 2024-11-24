@@ -1,0 +1,29 @@
+uuid: 8c194b1d-a2a1-4e0d-9888-7442cdae2447
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.node.field_porte
+    - node.type.parque_de_diversoes
+    - taxonomy.vocabulary.porte
+id: node.parque_de_diversoes.field_porte
+field_name: field_porte
+entity_type: node
+bundle: parque_de_diversoes
+label: Porte
+description: ''
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings:
+  handler: 'default:taxonomy_term'
+  handler_settings:
+    target_bundles:
+      porte: porte
+    sort:
+      field: name
+      direction: asc
+    auto_create: false
+    auto_create_bundle: ''
+field_type: entity_reference

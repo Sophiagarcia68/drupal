@@ -1,0 +1,21 @@
+uuid: cd59f6e5-02aa-4dc0-80bc-69004ee38e86
+langcode: en
+status: true
+dependencies:
+  config:
+    - block_content.type.parques
+    - field.field.block_content.parques.field_parques_de_diversao
+id: block_content.parques.default
+targetEntityType: block_content
+bundle: parques
+mode: default
+content:
+  field_parques_de_diversao:
+    type: entity_reference_label
+    label: above
+    settings:
+      link: true
+    third_party_settings: {  }
+    weight: 1
+    region: content
+hidden: {  }

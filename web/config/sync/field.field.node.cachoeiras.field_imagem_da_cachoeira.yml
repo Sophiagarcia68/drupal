@@ -1,0 +1,29 @@
+uuid: 7e3bcd92-610c-4bbb-b64c-5b0b26d0fb64
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.node.field_imagem_da_cachoeira
+    - media.type.image
+    - node.type.cachoeiras
+id: node.cachoeiras.field_imagem_da_cachoeira
+field_name: field_imagem_da_cachoeira
+entity_type: node
+bundle: cachoeiras
+label: 'Imagem da cachoeira'
+description: ''
+required: true
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings:
+  handler: 'default:media'
+  handler_settings:
+    target_bundles:
+      image: image
+    sort:
+      field: _none
+      direction: ASC
+    auto_create: false
+    auto_create_bundle: ''
+field_type: entity_reference

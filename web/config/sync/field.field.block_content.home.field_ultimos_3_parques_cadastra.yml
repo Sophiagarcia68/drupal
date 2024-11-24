@@ -1,0 +1,29 @@
+uuid: f0284e3b-4010-4885-9be7-ca9b5f6550d7
+langcode: en
+status: true
+dependencies:
+  config:
+    - block_content.type.home
+    - field.storage.block_content.field_ultimos_3_parques_cadastra
+    - node.type.parque_de_diversoes
+id: block_content.home.field_ultimos_3_parques_cadastra
+field_name: field_ultimos_3_parques_cadastra
+entity_type: block_content
+bundle: home
+label: 'Ultimos 3 parques cadastrados'
+description: ''
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings:
+  handler: 'default:node'
+  handler_settings:
+    target_bundles:
+      parque_de_diversoes: parque_de_diversoes
+    sort:
+      field: status
+      direction: DESC
+    auto_create: false
+    auto_create_bundle: ''
+field_type: entity_reference
