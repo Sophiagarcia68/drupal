@@ -1,0 +1,12 @@
+uuid: 3130e672-bd18-4191-ad20-fc9362e15c01
+langcode: en
+status: true
+dependencies:
+  module:
+    - system
+id: corretor
+label: corretor
+weight: 4
+is_admin: null
+permissions:
+  - 'access content'

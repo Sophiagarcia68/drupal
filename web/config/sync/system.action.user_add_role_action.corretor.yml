@@ -1,0 +1,14 @@
+uuid: cbd0bf11-f7d4-411a-ab26-c04c649964e5
+langcode: en
+status: true
+dependencies:
+  config:
+    - user.role.corretor
+  module:
+    - user
+id: user_add_role_action.corretor
+label: 'Add the corretor role to the selected user(s)'
+type: user
+plugin: user_add_role_action
+configuration:
+  rid: corretor

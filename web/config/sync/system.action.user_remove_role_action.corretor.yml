@@ -1,0 +1,14 @@
+uuid: 0feafc51-50f6-446a-9c93-f37932721379
+langcode: en
+status: true
+dependencies:
+  config:
+    - user.role.corretor
+  module:
+    - user
+id: user_remove_role_action.corretor
+label: 'Remove the corretor role from the selected user(s)'
+type: user
+plugin: user_remove_role_action
+configuration:
+  rid: corretor
