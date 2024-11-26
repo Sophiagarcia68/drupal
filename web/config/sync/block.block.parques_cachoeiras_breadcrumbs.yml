@@ -1,0 +1,22 @@
+uuid: 42da2139-3047-4bf8-ad9b-a9dfcbf4de84
+langcode: en
+status: true
+dependencies:
+  module:
+    - system
+  theme:
+    - parques_cachoeiras
+_core:
+  default_config_hash: vpF59bWYXM3IZvf-3IPjPeRWFxbwo8ert7JIVXiXIp4
+id: parques_cachoeiras_breadcrumbs
+theme: parques_cachoeiras
+region: breadcrumb
+weight: 0
+provider: null
+plugin: system_breadcrumb_block
+settings:
+  id: system_breadcrumb_block
+  label: Breadcrumbs
+  label_display: '0'
+  provider: system
+visibility: {  }

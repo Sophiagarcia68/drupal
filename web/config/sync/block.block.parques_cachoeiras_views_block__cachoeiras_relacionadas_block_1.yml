@@ -1,0 +1,30 @@
+uuid: f38c77f8-395c-4497-b5ed-52cefd770fff
+langcode: en
+status: true
+dependencies:
+  config:
+    - views.view.cachoeiras_relacionadas
+  module:
+    - system
+    - views
+  theme:
+    - parques_cachoeiras
+id: parques_cachoeiras_views_block__cachoeiras_relacionadas_block_1
+theme: parques_cachoeiras
+region: featured_bottom_first
+weight: -2
+provider: null
+plugin: 'views_block:cachoeiras_relacionadas-block_1'
+settings:
+  id: 'views_block:cachoeiras_relacionadas-block_1'
+  label: ''
+  label_display: visible
+  provider: views
+  context_mapping: {  }
+  views_label: ''
+  items_per_page: none
+visibility:
+  request_path:
+    id: request_path
+    negate: false
+    pages: '/cachoeira/*'

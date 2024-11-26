@@ -1,0 +1,22 @@
+uuid: 6ef7ba5b-5431-496b-8753-e878e1f05b0d
+langcode: en
+status: true
+dependencies:
+  module:
+    - node
+id: apelido_de_url_para_cachoeiras
+label: 'Apelido de url para cachoeiras'
+type: 'canonical_entities:node'
+pattern: 'cachoeira/[node:title]'
+selection_criteria:
+  5ae7a2cc-04cb-4c37-884b-4d4cb0490ea0:
+    id: 'entity_bundle:node'
+    negate: false
+    uuid: 5ae7a2cc-04cb-4c37-884b-4d4cb0490ea0
+    context_mapping:
+      node: node
+    bundles:
+      cachoeiras: cachoeiras
+selection_logic: and
+weight: -5
+relationships: {  }

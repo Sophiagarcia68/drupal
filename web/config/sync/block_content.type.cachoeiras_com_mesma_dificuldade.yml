@@ -1,0 +1,8 @@
+uuid: c0866702-38ac-4701-89f8-d48788fa914f
+langcode: en
+status: true
+dependencies: {  }
+id: cachoeiras_com_mesma_dificuldade
+label: 'Cachoeiras com mesma dificuldade'
+revision: false
+description: null

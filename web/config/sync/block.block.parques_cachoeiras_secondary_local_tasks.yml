@@ -1,0 +1,22 @@
+uuid: 6db1612d-f540-49b3-ac7f-5f2551356c7c
+langcode: en
+status: true
+dependencies:
+  theme:
+    - parques_cachoeiras
+_core:
+  default_config_hash: t2eq6NyERSVKk7GXT2Ykavy_xsw7eX81Lwud91hI0gU
+id: parques_cachoeiras_secondary_local_tasks
+theme: parques_cachoeiras
+region: content
+weight: -4
+provider: null
+plugin: local_tasks_block
+settings:
+  id: local_tasks_block
+  label: 'Secondary tabs'
+  label_display: '0'
+  provider: core
+  primary: false
+  secondary: true
+visibility: {  }

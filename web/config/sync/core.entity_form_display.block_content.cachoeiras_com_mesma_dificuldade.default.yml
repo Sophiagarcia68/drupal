@@ -1,0 +1,33 @@
+uuid: 243c4f7a-35c6-4168-b54b-f602bc0c7d24
+langcode: en
+status: true
+dependencies:
+  config:
+    - block_content.type.cachoeiras_com_mesma_dificuldade
+    - field.field.block_content.cachoeiras_com_mesma_dificuldade.body
+  module:
+    - text
+id: block_content.cachoeiras_com_mesma_dificuldade.default
+targetEntityType: block_content
+bundle: cachoeiras_com_mesma_dificuldade
+mode: default
+content:
+  body:
+    type: text_textarea_with_summary
+    weight: 26
+    region: content
+    settings:
+      rows: 9
+      summary_rows: 3
+      placeholder: ''
+      show_summary: false
+    third_party_settings: {  }
+  info:
+    type: string_textfield
+    weight: -5
+    region: content
+    settings:
+      size: 60
+      placeholder: ''
+    third_party_settings: {  }
+hidden: {  }

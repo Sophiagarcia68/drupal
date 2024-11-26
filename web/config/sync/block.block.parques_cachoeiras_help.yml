@@ -1,0 +1,22 @@
+uuid: 4e99c779-5328-4566-be58-c52dc682186a
+langcode: en
+status: true
+dependencies:
+  module:
+    - help
+  theme:
+    - parques_cachoeiras
+_core:
+  default_config_hash: C3re_RKfD8Re_xcevAvB97OKTDjwEk04NhnwuVnVp44
+id: parques_cachoeiras_help
+theme: parques_cachoeiras
+region: highlighted
+weight: -2
+provider: null
+plugin: help_block
+settings:
+  id: help_block
+  label: Help
+  label_display: '0'
+  provider: help
+visibility: {  }

@@ -1,0 +1,24 @@
+uuid: ce138bc9-1cd3-4c80-a9f2-f5d4bb945e48
+langcode: en
+status: true
+dependencies:
+  config:
+    - views.view.ultimas_cachoeiras_cadastradas
+  module:
+    - views
+  theme:
+    - parques_cachoeiras
+id: parques_cachoeiras_views_block__ultimas_3
+theme: parques_cachoeiras
+region: sidebar_first
+weight: 0
+provider: null
+plugin: 'views_block:ultimas_cachoeiras_cadastradas-block_1'
+settings:
+  id: 'views_block:ultimas_cachoeiras_cadastradas-block_1'
+  label: ''
+  label_display: visible
+  provider: views
+  views_label: ''
+  items_per_page: none
+visibility: {  }

@@ -1,0 +1,27 @@
+uuid: ab732276-5746-4998-8598-acbf80721b4d
+langcode: en
+status: true
+dependencies:
+  config:
+    - system.menu.main
+  module:
+    - system
+  theme:
+    - parques_cachoeiras
+_core:
+  default_config_hash: 3YmqurE6D4u04MvTTVaoOEAapSlkny83a0m75CbcTzA
+id: parques_cachoeiras_main_menu
+theme: parques_cachoeiras
+region: primary_menu
+weight: -6
+provider: null
+plugin: 'system_menu_block:main'
+settings:
+  id: 'system_menu_block:main'
+  label: 'Main navigation'
+  label_display: '0'
+  provider: system
+  level: 1
+  depth: 2
+  expand_all_items: true
+visibility: {  }

@@ -1,0 +1,20 @@
+uuid: 928a438f-b7a4-4f62-9e66-cbee976ff388
+langcode: en
+status: true
+dependencies:
+  theme:
+    - parques_cachoeiras
+_core:
+  default_config_hash: 4dipMnxM6JiFZ4g4ew8dN0gea0I3rmCSUxnQILqzIxA
+id: parques_cachoeiras_primary_admin_actions
+theme: parques_cachoeiras
+region: content
+weight: -6
+provider: null
+plugin: local_actions_block
+settings:
+  id: local_actions_block
+  label: 'Primary admin actions'
+  label_display: '0'
+  provider: core
+visibility: {  }

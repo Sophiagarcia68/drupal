@@ -1,0 +1,22 @@
+uuid: a955aecd-09bb-4f59-8fd5-03111088f24c
+langcode: en
+status: true
+dependencies:
+  module:
+    - system
+  theme:
+    - parques_cachoeiras
+_core:
+  default_config_hash: 2BAPL7JeUh_PMeSHLqSH9qKpiZ5oAf4LwDQRDTuokRs
+id: parques_cachoeiras_powered
+theme: parques_cachoeiras
+region: footer_fifth
+weight: -7
+provider: null
+plugin: system_powered_by_block
+settings:
+  id: system_powered_by_block
+  label: 'Powered by Drupal'
+  label_display: '0'
+  provider: system
+visibility: {  }

@@ -1,0 +1,22 @@
+uuid: 304f3408-2a88-4f14-be08-3c4617e78f79
+langcode: en
+status: true
+dependencies:
+  module:
+    - node
+id: apelido_de_url_para_parques
+label: 'Apelido de url para parques'
+type: 'canonical_entities:node'
+pattern: 'parque/[node:title]'
+selection_criteria:
+  74028eeb-19fd-4629-864c-ad1ed8cf3e52:
+    id: 'entity_bundle:node'
+    negate: false
+    uuid: 74028eeb-19fd-4629-864c-ad1ed8cf3e52
+    context_mapping:
+      node: node
+    bundles:
+      parque_de_diversoes: parque_de_diversoes
+selection_logic: and
+weight: -5
+relationships: {  }

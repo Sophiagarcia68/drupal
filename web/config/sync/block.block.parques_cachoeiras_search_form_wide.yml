@@ -1,0 +1,23 @@
+uuid: 5fcd4c30-6eda-458c-90b2-f90f0f4bbef4
+langcode: en
+status: true
+dependencies:
+  module:
+    - search
+  theme:
+    - parques_cachoeiras
+_core:
+  default_config_hash: PEHEyI2JEvU0wb4yqpU3g_Ipbr2z-rZAgfOURiRcWN0
+id: parques_cachoeiras_search_form_wide
+theme: parques_cachoeiras
+region: top_header_form
+weight: -7
+provider: null
+plugin: search_form_block
+settings:
+  id: search_form_block
+  label: 'Search form (wide)'
+  label_display: '0'
+  provider: search
+  page_id: ''
+visibility: {  }

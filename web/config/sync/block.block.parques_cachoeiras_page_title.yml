@@ -1,0 +1,20 @@
+uuid: 742cb592-449c-4355-a0fb-739c4844a0bc
+langcode: en
+status: true
+dependencies:
+  theme:
+    - parques_cachoeiras
+_core:
+  default_config_hash: zTXFXt3KjjxDWbtXr4ufnWELZg_LFw7SSGq703m2bPk
+id: parques_cachoeiras_page_title
+theme: parques_cachoeiras
+region: content
+weight: -7
+provider: null
+plugin: page_title_block
+settings:
+  id: page_title_block
+  label: 'Page title'
+  label_display: '0'
+  provider: core
+visibility: {  }
