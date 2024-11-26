@@ -2,9 +2,9 @@ _core:
   default_config_hash: ijfbzDTN4CbE7Sr-6ubWzy_t1vH4OtU1doNCLssVz-4
 langcode: en
 uuid: ebd7d33f-df55-4ee7-afc4-885436f04c48
-name: 'Imobiliária LifeCare'
+name: 'Parques e Cachoeiras'
 mail: admin@example.com
-slogan: 'Seu próximo lar começa aqui: confiança, qualidade e o imóvel perfeito para você!'
+slogan: ''
 page:
   403: ''
   404: ''
