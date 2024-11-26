@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "9a70cd4a0d75f4fb3f493c954666b36b",
+    "content-hash": "34f3e70908651bcdd152f1d0d7b936b5",
     "packages": [
         {
             "name": "asm89/stack-cors",
@@ -2100,6 +2100,67 @@
                 "source": "https://gitlab.com/drupalspoons/devel",
                 "issues": "https://gitlab.com/drupalspoons/devel/-/issues",
                 "slack": "https://drupal.slack.com/archives/C012WAW1MH6"
+            }
+        },
+        {
+            "name": "drupal/lb_plus",
+            "version": "2.1.13",
+            "source": {
+                "type": "git",
+                "url": "https://git.drupalcode.org/project/lb_plus.git",
+                "reference": "2.1.13"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://ftp.drupal.org/files/projects/lb_plus-2.1.13.zip",
+                "reference": "2.1.13",
+                "shasum": "9db4d57080e3f4d9f66a7b65f82c164de5a543eb"
+            },
+            "require": {
+                "drupal/core": "^10 || ^11"
+            },
+            "require-dev": {
+                "drupal/field_sample_value": "*",
+                "drupal/lb_block_decorator": "*",
+                "drupal/section_library": "*"
+            },
+            "type": "drupal-module",
+            "extra": {
+                "drupal": {
+                    "version": "2.1.13",
+                    "datestamp": "1729557026",
+                    "security-coverage": {
+                        "status": "covered",
+                        "message": "Covered by Drupal's security advisory policy"
+                    }
+                }
+            },
+            "notification-url": "https://packages.drupal.org/8/downloads",
+            "license": [
+                "GPL-2.0-or-later"
+            ],
+            "authors": [
+                {
+                    "name": "fabianx",
+                    "homepage": "https://www.drupal.org/user/693738"
+                },
+                {
+                    "name": "peximo",
+                    "homepage": "https://www.drupal.org/user/209981"
+                },
+                {
+                    "name": "plach",
+                    "homepage": "https://www.drupal.org/user/183211"
+                },
+                {
+                    "name": "tim bozeman",
+                    "homepage": "https://www.drupal.org/user/2241356"
+                }
+            ],
+            "description": "A drop in replacement for the Layout Builder UI.",
+            "homepage": "https://www.drupal.org/project/lb_plus",
+            "support": {
+                "source": "https://git.drupalcode.org/project/lb_plus"
             }
         },
         {

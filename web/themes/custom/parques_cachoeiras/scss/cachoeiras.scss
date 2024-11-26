@@ -1,0 +1,48 @@
+
+            div.cachoeiras-custom, .parques-custom {
+                >div.view-content.row {
+                    >div.views-view-responsive-grid {
+                        >div.views-view-responsive-grid__item {
+                            >.views-view-responsive-grid__item-inner {
+                                border-radius: 10px;
+                                padding: 10px;
+                                border: 1px solid #ccc;
+                                .views-field-title{
+                                    span{
+                                        a{
+                                            color: #393939;
+                                            width: 200px; /* Define a largura máxima */
+                                            white-space: nowrap; /* Garante que o texto fique em uma única linha */
+                                            overflow: hidden; /* Esconde o excesso de texto */
+                                            text-overflow: ellipsis; /* Adiciona os 3 pontinhos no final do texto */
+                                            display: block; /* Ou inline-block, dependendo do contexto */
+                                        }
+                                    }
+                                    
+                                }
+                                .views-field-field-dificuldade{
+
+                                }
+                                .views-field-field-imagem-da-cachoeira, .views-field-field-imagem{
+                                    .field-content{
+                                        a{
+                                            img{
+                                                width: 100%;
+                                                max-width: 300px; 
+                                                height: 200px; 
+                                                object-fit: cover;
+                                                border-radius: 8px; 
+                                                box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1); 
+                                            }
+                                        }
+                                    }
+                                }
+                                .views-field-field-localizacao{
+
+                                }
+                            }
+                        }
+                    }
+                }
+            }
+        

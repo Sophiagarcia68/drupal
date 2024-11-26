@@ -58,3 +58,18 @@ a {
 .slick>div {
     margin: 0 15px;
 }
+
+.bg-primary, .bg-secondary{
+    background-color: rgb(96, 214, 238) !important;
+}
+
+#block-parques-cachoeiras-main-menu {
+    > ul {
+      > li {
+        > a {
+          color: #fff;
+        }
+      }
+    }
+  }
+  

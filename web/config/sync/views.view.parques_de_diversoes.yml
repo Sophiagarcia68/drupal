@@ -357,6 +357,7 @@ display:
           replica: false
           query_tags: {  }
       relationships: {  }
+      css_class: parques-custom
       header: {  }
       footer: {  }
       display_extenders: {  }

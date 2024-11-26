@@ -6,7 +6,6 @@ dependencies:
     - field.storage.node.field_dificuldade
     - field.storage.node.field_imagem_da_cachoeira
     - field.storage.node.field_localizacao
-    - image.style.large
     - node.type.cachoeiras
     - system.menu.main
   module:
@@ -192,7 +191,7 @@ display:
           type: media_thumbnail
           settings:
             image_link: content
-            image_style: large
+            image_style: ''
             image_loading:
               attribute: lazy
           group_column: target_id
@@ -363,6 +362,7 @@ display:
           replica: false
           query_tags: {  }
       relationships: {  }
+      css_class: cachoeiras-custom
       header: {  }
       footer: {  }
       display_extenders: {  }
