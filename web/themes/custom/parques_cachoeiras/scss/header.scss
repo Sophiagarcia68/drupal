@@ -1,0 +1,49 @@
+.header {
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.3);
+    .navbar {
+        margin: 0 auto;
+
+        @media (min-width: 36rem) {
+            max-width: 540px;
+        }
+
+        @media (min-width: 48rem) {
+            max-width: 720px;
+        }
+
+        @media (min-width: 62rem) {
+            max-width: 960px;
+        }
+
+        @media (min-width: 75rem) {
+            max-width: 1140px;
+        }
+
+        @media (min-width: 87.5rem) {
+            max-width: 1320px;
+        }
+    }
+
+    .bg-primary,
+    .bg-secondary {
+        background-color: initial !important;
+    }
+}
+
+
+
+#block-parques-cachoeiras-main-menu {
+    >ul {
+        >li {
+            >a {
+                color: #242424;
+            }
+        }
+    }
+}
+
+#navbar-top.navbar-dark{
+    .nav-link {
+        color: #242424 !important;
+    }
+} 
