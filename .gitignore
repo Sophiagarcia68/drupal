@@ -10,9 +10,9 @@
 /web/sites/*/*services*.yml
 /web/themes/custom/parques_cachoeiras/node_modules
 # Ignore paths that may contain user-generated content
-/web/sites/*/files
+# /web/sites/*/files
 /web/sites/*/public
-/web/sites/*/private
+# /web/sites/*/private
 /web/sites/*/files-public
 /web/sites/*/files-private
 
