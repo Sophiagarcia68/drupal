@@ -52,4 +52,5 @@ Caso o comando lando drush cr não esteja funcionando, em settings.php adicione 
 $settings['hash_salt'] = 'CHANGE_THIS';
 ```
 
+Saida da view para o json:  https://my-lando-app.lndo.site/json-output
 
